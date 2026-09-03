@@ -3,7 +3,8 @@ from pathlib import Path
 import pandas as pd
 
 # 1. Definir la ruta raíz del proyecto o del directorio de trabajo actual
-BASE_DIR = Path(r"C:\Users\cande\OneDrive\Documentos\GitHub\candelaria-adolph---bitacora")
+# BASE_DIR = Path(r"C:\Users\cande\OneDrive\Documentos\GitHub\candelaria-adolph---bitacora")
+BASE_DIR = Path.cwd()
 
 # 2. Construir la ruta relativa de forma segura utilizando el operador /
 # Estructura esperada: tu_proyecto/data/raw/datos.csv
